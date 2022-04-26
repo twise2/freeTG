@@ -6,21 +6,26 @@ interface costInfo {
   traits: string;
 }
 
+//in wheel color order
 enum colors {
+  White = "#FFFFF0",
   Red = "#B22222",
+  Violet = "#CF9FFF",
+  Green = "#43E595",
   Orange = "#EF5200",
   Blue = "#0000CD",
-  Green = "#43E595",
-  Indigo = "#5C0082",
-  Violet = "#CF9FFF",
-  White = "#FFFFF0",
-  Brown = "#3F001F",
   Black = "#262626",
+  Indigo = "#5C0082",
+  Brown = "#3F001F",
   //Yellow = "#FFDB58",
   //Gray = "#a1a1a1",
 }
 
+const anumber: number = 5;
 const manaTypes: costInfo[] = [
+
+
+
   {
     name: "Prithi",
     color: colors.Brown,
@@ -37,6 +42,8 @@ const manaTypes: costInfo[] = [
     traits:
       "adaptable, versatile, communicative, wit, eloquent, youthful, lively, nervous, tense, superficial, inconsistent cunning, inquisitive, indecisive, changeable, easily influenced, flirtatious, self-indulgent",
   },
+
+
   {
     name: "Agni",
     color: colors.Red,
@@ -53,13 +60,15 @@ const manaTypes: costInfo[] = [
     traits:
       "loving, intuitive, shrewd, cautious, protective, sympathetic, changeable, moody, overemotional, touchy, clinging, unable to let go, sensitive, compassionate, kind, selfless, unworldly, intuitive, sympathetic, escapist, vague, weak-willed, easily led",
   },
+
+
   {
     name: "Vishu",
     color: colors.Indigo,
     element: "Void",
     description: "Communication, Omnipresense, The Unknown, Limitations",
     traits:
-      "modest, shy, meticulous, reliable, practical, diligent, narrow-focused, intelligent, analytical, fussy, worrying, overcritical, harsh, perfectionist, conservative, unchanging",
+      "modest, shy, meticulous, reliable, practical, diligent, narrow-focused, magnetic, intelligent, analytical, fussy, worrying, overcritical, harsh, perfectionist, conservative, unchanging",
   },
   {
     name: "Ajna",
@@ -70,14 +79,16 @@ const manaTypes: costInfo[] = [
       "generous, warmhearted, creative, enthusiastic, broad-minded, expansive, faithful, loving, pompous, patronizing, interfering, dogmatic",
   },
 
+
   {
     name: "Saha",
     color: colors.Orange,
     element: "Faith",
     description: "Awareness, Intelligence, Spirituality, Belief, Group Thought",
     traits:
-      "peaceable, diplomatic, urbane, humanitarian, loyal, original, intractable, contrary, perverse, unpredictable, intolerant",
+      "peaceable, diplomatic, urbane, humanitarian, loyal, original, intractable, contrary, perverse, predictable, intolerant",
   },
+
 
   {
     name: "Aedara",
@@ -94,6 +105,6 @@ const manaTypes: costInfo[] = [
     element: "Chaos",
     description: "Variance, Individualism, Self-Determination",
     traits:
-      "determined, forceful, emotional, intuitive, powerful, passionate, exciting, magnetic, jealous, resentful, compulsive, obsessive, secretive, obstinate",
+      "determined, forceful, emotional, intuitive, powerful, passionate, exciting, jealous, unpredictable, resentful, compulsive, obsessive, secretive, obstinate",
   },
 ];

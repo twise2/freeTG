@@ -27,7 +27,7 @@ const manaTypes: costInfo[] = [
     element: "Earth",
     description: "stability, grounding, stubborness, consistency, growth",
     traits:
-      "patient, reliable, warmhearted, loving, persistent, determined, placid, security loving, jealous, possessive, resentful, inflexible, self-indulgent, greedy",
+      "patient, reliable, warmhearted, persistent, determined, placid, security loving, jealous, possessive, resentful, inflexible, self-indulgent, greedy",
   },
   {
     name: "",
@@ -35,7 +35,7 @@ const manaTypes: costInfo[] = [
     element: "Air",
     description: "Compassion, Love, Expansiveness, Freedom, Escape",
     traits:
-      "diplomatic, urbane, romantic, charming, easygoing, sociable, idealistic, peaceable, indecisive, changeable, gullible, easily influenced, flirtatious, self-indulgent adaptable, versatile, communicative, witty, intellectual, eloquent, youthful, lively, nervous, tense, superficial, inconsistent cunning, inquisitive",
+      "adaptable, versatile, communicative, wit, eloquent, youthful, lively, nervous, tense, superficial, inconsistent cunning, inquisitive, indecisive, changeable, easily influenced, flirtatious, self-indulgent",
   },
   {
     name: "Agni",
@@ -43,7 +43,7 @@ const manaTypes: costInfo[] = [
     element: "Fire",
     description: "self-esteem, confidence, passion, assertiveness, aggression",
     traits:
-      "adventurous, energetic, pioneering, courageous,enthusiastic, confident, dynamic, quick-witted,selfish, quick-tempered,impulsive, impatient ,foolhardy, daredevil, optimistic, freedom-loving, jovial, good-humored, honest, straightforward, intellectual, philosophical, blindly optimistic, careless, irresponsible, superficial, tactless, restless",
+      "adventurous, energetic, courageous, enthusiastic, confident, dynamic, quick-witted, selfish, quick-tempered,impulsive, impatient ,foolhardy, daredevil, optimistic, jovial, honest, direct, blindly optimistic, careless, irresponsible, superficial, tactless, restless, aggressive",
   },
   {
     name: "Jala",
@@ -51,7 +51,7 @@ const manaTypes: costInfo[] = [
     element: "Water",
     description: "Creativity, Self Worth, Healing, Cold, Disease",
     traits:
-      "emotional, loving, intuitive, imaginative, shrewd, cautious, protective, sympathetic, changeable, moody, overemotional, touchy, clinging, unable to let go,imaginative, sensitive, compassionate, kind, selfless, unworldly, intuitive, sympathetic, escapist, idealistic, secretive, vague, weak-willed, easily led",
+      "loving, intuitive, shrewd, cautious, protective, sympathetic, changeable, moody, overemotional, touchy, clinging, unable to let go, sensitive, compassionate, kind, selfless, unworldly, intuitive, sympathetic, escapist, vague, weak-willed, easily led",
   },
   {
     name: "Vishu",
@@ -59,7 +59,7 @@ const manaTypes: costInfo[] = [
     element: "Void",
     description: "Communication, Omnipresense, The Unknown, Limitations",
     traits:
-      "modest, shy, meticulous, reliable, practical, diligent, intelligent, analytical, fussy, worrying, overcritical, harsh, perfectionist, conservative",
+      "modest, shy, meticulous, reliable, practical, diligent, narrow-focused, intelligent, analytical, fussy, worrying, overcritical, harsh, perfectionist, conservative, unchanging",
   },
   {
     name: "Ajna",
@@ -67,17 +67,16 @@ const manaTypes: costInfo[] = [
     element: "Aether",
     description: "Intuition, Imagination, Light, Speed, Illumination",
     traits:
-      "generous, warmhearted creative, enthusiastic, broad-minded, expansive, faithful, loving, pompous, patronizing, bossy, interfering, dogmatic, intolerant",
+      "generous, warmhearted, creative, enthusiastic, broad-minded, expansive, faithful, loving, pompous, patronizing, interfering, dogmatic",
   },
 
   {
     name: "Saha",
     color: colors.Orange,
     element: "Faith",
-    description:
-      "Awareness, Intelligence, Spirituality, Belief, Group Thought ",
+    description: "Awareness, Intelligence, Spirituality, Belief, Group Thought",
     traits:
-      "friendly, humanitarian, honest, loyal, original, inventive, independent, intellectual, intractable, contrary, perverse, unpredictable, unemotional, detached",
+      "peaceable, diplomatic, urbane, humanitarian, loyal, original, intractable, contrary, perverse, unpredictable, intolerant",
   },
 
   {
@@ -86,7 +85,7 @@ const manaTypes: costInfo[] = [
     element: "Order",
     description: "Collectivism, Truth, Truth, Uniformity, Equality",
     traits:
-      "practical, prudent, ambitious, disciplined, patient, careful, humorous, reserved, pessimistic, fatalistic, miserly, grudging",
+      "practical, prudent, ambitious, disciplined, idealistic, patient, careful, reserved, pessimistic, fatalistic, miserly, grudging, unemotional, detached",
   },
 
   {
@@ -95,6 +94,6 @@ const manaTypes: costInfo[] = [
     element: "Chaos",
     description: "Variance, Individualism, Self-Determination",
     traits:
-      "determined, forceful, emotional, intuitive, powerful, passionate, exciting, magnetic, jealous, resentful compulsive, obsessive, secretive, obstinate",
+      "determined, forceful, emotional, intuitive, powerful, passionate, exciting, magnetic, jealous, resentful, compulsive, obsessive, secretive, obstinate",
   },
 ];

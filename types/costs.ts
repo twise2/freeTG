@@ -11,8 +11,8 @@ enum colors {
   White = "#FFFFF0",
   Red = "#B22222",
   Violet = "#CF9FFF",
-  Green = "#43E595",
-  Orange = "#EF5200",
+  Green = "#33B361",
+  Orange = "#FFA52B",
   Blue = "#0000CD",
   Black = "#262626",
   Indigo = "#5C0082",
@@ -23,9 +23,6 @@ enum colors {
 
 const anumber: number = 5;
 const manaTypes: costInfo[] = [
-
-
-
   {
     name: "Prithi",
     color: colors.Brown,
@@ -42,7 +39,6 @@ const manaTypes: costInfo[] = [
     traits:
       "adaptable, versatile, communicative, wit, eloquent, youthful, lively, nervous, tense, superficial, inconsistent cunning, inquisitive, indecisive, changeable, easily influenced, flirtatious, self-indulgent",
   },
-
 
   {
     name: "Agni",
@@ -61,7 +57,6 @@ const manaTypes: costInfo[] = [
       "loving, intuitive, shrewd, cautious, protective, sympathetic, changeable, moody, overemotional, touchy, clinging, unable to let go, sensitive, compassionate, kind, selfless, unworldly, intuitive, sympathetic, escapist, vague, weak-willed, easily led",
   },
 
-
   {
     name: "Vishu",
     color: colors.Indigo,
@@ -79,7 +74,6 @@ const manaTypes: costInfo[] = [
       "generous, warmhearted, creative, enthusiastic, broad-minded, expansive, faithful, loving, pompous, patronizing, interfering, dogmatic",
   },
 
-
   {
     name: "Saha",
     color: colors.Orange,
@@ -88,7 +82,6 @@ const manaTypes: costInfo[] = [
     traits:
       "peaceable, diplomatic, urbane, humanitarian, loyal, original, intractable, contrary, perverse, predictable, intolerant",
   },
-
 
   {
     name: "Aedara",

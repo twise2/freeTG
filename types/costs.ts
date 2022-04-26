@@ -22,7 +22,7 @@ enum colors {
 
 const manaTypes: costInfo[] = [
   {
-    name: "",
+    name: "Prithi",
     color: colors.Brown,
     element: "Earth",
     description: "stability, grounding, stubborness, consistency, growth",
@@ -30,7 +30,7 @@ const manaTypes: costInfo[] = [
       "patient, reliable, warmhearted, persistent, determined, placid, security loving, jealous, possessive, resentful, inflexible, self-indulgent, greedy",
   },
   {
-    name: "",
+    name: "Vayu",
     color: colors.Green,
     element: "Air",
     description: "Compassion, Love, Expansiveness, Freedom, Escape",

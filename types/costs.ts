@@ -4,9 +4,9 @@ interface costInfo {
   element: string;
   description: string;
   traits: string;
+  cardThemes: string;
 }
 
-//in wheel color order
 enum colors {
   White = "#FFFFF0",
   Red = "#B22222",
@@ -30,6 +30,8 @@ const manaTypes: costInfo[] = [
     description: "stability, grounding, stubborness, consistency, growth",
     traits:
       "patient, reliable, warmhearted, persistent, determined, placid, security loving, jealous, possessive, resentful, inflexible, self-indulgent, greedy",
+    cardThemes:
+      "High Vitality, Simplify/Level Playing Field By removing effects, discourage aggresion, slow stable value engines ",
   },
   {
     name: "Vayu",
@@ -38,6 +40,8 @@ const manaTypes: costInfo[] = [
     description: "Compassion, Love, Expansiveness, Freedom, Escape",
     traits:
       "adaptable, versatile, communicative, wit, eloquent, youthful, lively, nervous, tense, superficial, inconsistent cunning, inquisitive, indecisive, changeable, easily influenced, flirtatious, self-indulgent",
+    cardThemes:
+      "Pay later, flight, temporary gains, avoid opponents interaction",
   },
 
   {
@@ -47,6 +51,7 @@ const manaTypes: costInfo[] = [
     description: "self-esteem, confidence, passion, assertiveness, aggression",
     traits:
       "adventurous, energetic, courageous, enthusiastic, confident, dynamic, quick-witted, selfish, quick-tempered,impulsive, impatient ,foolhardy, daredevil, optimistic, jovial, honest, direct, blindly optimistic, careless, irresponsible, superficial, tactless, restless, aggressive",
+    cardThemes: "attack quickly, direct damage to opponents, high strength",
   },
   {
     name: "Jala",
@@ -55,6 +60,7 @@ const manaTypes: costInfo[] = [
     description: "Creativity, Self Worth, Healing, Cold, Disease",
     traits:
       "loving, intuitive, shrewd, cautious, protective, sympathetic, changeable, moody, overemotional, touchy, clinging, unable to let go, sensitive, compassionate, kind, selfless, unworldly, intuitive, sympathetic, escapist, vague, weak-willed, easily led",
+    cardThemes: "protection, increase vitality, gain life",
   },
 
   {
@@ -64,14 +70,16 @@ const manaTypes: costInfo[] = [
     description: "Communication, Omnipresense, The Unknown, Limitations",
     traits:
       "modest, shy, meticulous, reliable, practical, diligent, narrow-focused, magnetic, intelligent, analytical, fussy, worrying, overcritical, harsh, perfectionist, conservative, unchanging",
+    cardThemes: 'Disable "weak" entity cards, sacrifice, take actions for other players'
   },
   {
     name: "Ajna",
     color: colors.Violet,
     element: "Aether",
-    description: "Intuition, Imagination, Light, Speed, Illumination",
+    description: "Intuition, Imagination, Light, Illumination",
     traits:
       "generous, warmhearted, creative, enthusiastic, broad-minded, expansive, faithful, loving, pompous, patronizing, interfering, dogmatic",
+    cardThemes: 'inspiration buffs, take control of other entities, see hands/decks'
   },
 
   {
@@ -81,6 +89,7 @@ const manaTypes: costInfo[] = [
     description: "Awareness, Intelligence, Spirituality, Belief, Group Thought",
     traits:
       "peaceable, diplomatic, urbane, humanitarian, loyal, original, intractable, contrary, perverse, predictable, intolerant",
+    cardThemes: 'swap cards, pay off in later turns, encourage types of play'
   },
 
   {
@@ -90,6 +99,7 @@ const manaTypes: costInfo[] = [
     description: "Collectivism, Truth, Truth, Uniformity, Equality",
     traits:
       "practical, prudent, ambitious, disciplined, idealistic, patient, careful, reserved, pessimistic, fatalistic, miserly, grudging, unemotional, detached",
+    cardThemes: 'buff based on high numbers, open information games, board wide debuffs'
   },
 
   {
@@ -99,5 +109,6 @@ const manaTypes: costInfo[] = [
     description: "Variance, Individualism, Self-Determination",
     traits:
       "determined, forceful, emotional, intuitive, powerful, passionate, exciting, jealous, unpredictable, resentful, compulsive, obsessive, secretive, obstinate",
+    cardThemes: 'random chance, multiple choice options, direct removal of entities, theft'
   },
 ];

@@ -25,8 +25,12 @@ enum symbols {
   Exhaust = "",
 }
 
+//once per turn, place a card face down and put a mana token on it.
+//this card stays face down unless shuffled and is treated as a
+//conduit of that cards color
 enum actions {
   Play = "When a card leaves a players hand",
+  Place = "Play a card without playing it for purposes of interaction",
   Exhaust = "Turn a card sideways. Cards cannot take actions while exhausted",
   Dispell = "When a player plays a card. Cancel any effects as if the card is not resolved and destroy the card.",
   Destroy = "Send a card to the cemetary.",
